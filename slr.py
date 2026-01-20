@@ -32,3 +32,10 @@ plt.title('Salary of employee based on experience')
 plt.xlabel('Experience')
 plt.ylabel('Salary')
 plt.show()
+
+
+c = regressor.intercept_
+print(f'c value : {c}') 
+
+m = regressor.coef_
+print(f'm value: {m}')
